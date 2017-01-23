@@ -14,4 +14,13 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+            <exclude>
+                <file>src/Domain/AIService.php</file>
+                <file>src/AIServiceFactory.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
 </phpunit>

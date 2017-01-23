@@ -19,13 +19,6 @@ class BaiDuAIServiceTest extends \PHPUnit_Framework_TestCase
 
     public function testGetIdCardRes()
     {
-        $eImage = new Image('aaa');
-
-        $service = new BaiDuAIService();
-
-        $res = $service->getIdCardRes($eImage);
-
-
-        $this->assertEquals($res, 'aaaaa');
+        
     }
 }
